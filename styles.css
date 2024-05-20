@@ -1,58 +1,4 @@
-@font-face {
-  font-family: Yellowtail;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(""),
-    url(/9f39f63af40a24e01442e32857704f64ba3be606/b76b7/fonts/yellowtail-v17-latin-regular.woff2)
-      format("woff2"),
-    url(/21642168a5368afeda9d1fc7a0eb68bdddacdfc7/a2d5b/fonts/yellowtail-v17-latin-regular.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(""),
-    url(/ac6d71b4d5fdd2b3dabc9a06ff6c001e4251da0b/cb9f5/fonts/poppins-v19-latin-regular.woff2)
-      format("woff2"),
-    url(/a8db3445fc77bd533e33a6e0cf23d3c8c9f47cb8/d8e53/fonts/poppins-v19-latin-regular.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(""),
-    url(/cb726212d5d525021752a1d8470a0fb593e0c49e/6349d/fonts/poppins-v19-latin-700.woff2)
-      format("woff2"),
-    url(/3075477be6206edb5bc400810c9a7612b9030a2e/25151/fonts/poppins-v19-latin-700.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: local(""),
-    url(/6d11d743bc3cfb169d70bc86450f18351dc1a905/94e78/fonts/poppins-v19-latin-800.woff2)
-      format("woff2"),
-    url(/3862e8f2877ea37124d36015afc3edcb202086b5/28d21/fonts/poppins-v19-latin-800.woff)
-      format("woff");
-}
-@font-face {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local(""),
-    url(/ec0cbbcb4600e691cb24a63451f758727f90a306/19afe/fonts/poppins-v19-latin-900.woff2)
-      format("woff2"),
-    url(/fffd791d1307a0ff215b562a7dae5d4ae2924965/40b8c/fonts/poppins-v19-latin-900.woff)
-      format("woff");
-}
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -2132,7 +2078,6 @@ input[type="email"] {
   position: relative;
 }
 .what-we-do-content:before {
-  content: url(/a33c56222bd3cb59a950207d8d0cad6c6942fe08/4d66d/images/blob.svg);
   position: absolute;
   height: auto;
   z-index: -1;
@@ -2391,7 +2336,6 @@ input[type="email"] {
   margin-bottom: 60px;
 }
 .partner:before {
-  content: url(/1b9638e1bbd4f425c978f99e8b76768d4c08b4ed/57e9c/images/blob-copy.svg);
   position: absolute;
   z-index: -1;
   top: 40px;

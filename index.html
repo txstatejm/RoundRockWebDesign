@@ -1403,7 +1403,7 @@
             </g>
           </svg>
         </div>
-        <div class="container">
+        <div id="main-center" class="container">
           <h1>Web Design and Development</h1>
           <h2>
            We offer 100% hand-coded websites with superior results.
@@ -2121,23 +2121,5 @@
       defer
       src="https://d33wubrfki0l68.cloudfront.net/js/eef0025cd862cc3e03f8ff60b8943386d5df5d14/app.js"
     ></script>
-    <script>
-      const bannerCloseButton = document.querySelector(
-        "#beta-form #beta-submit"
-      );
-      const bannerSubmitButton = document.querySelector(
-        "#beta-form #close-submit"
-      );
-      const banner = document.querySelector(".banner");
-      let buttonClosed = localStorage.getItem("buttonClosed");
-
-      bannerSubmitButton.addEventListener("click", () => {
-        banner.classList.add("close");
-        localStorage.setItem("buttonClosed", "true");
-      });
-      if (buttonClosed == "true") {
-        banner.classList.add("close");
-      }
-    </script>
   </body>
 </html>
