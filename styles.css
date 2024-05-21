@@ -1,4 +1,3 @@
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -48,7 +47,7 @@ li,
 p,
 span {
   font-family: Poppins, sans-serif;
-  color: #646464;
+  color: black;
   margin: 0;
 }
 h1,
@@ -546,48 +545,6 @@ h2 span {
   border-right: 4px solid var(--primary);
   color: var(--primary);
 }
-#bottom {
-  background: url(/images/9ed5b5d8d9cd509ccc2db7f752ed24fa8b3f5391/code-type.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-#bottom:before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: #000;
-  opacity: 0.7;
-}
-#bottom .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-#bottom h2 {
-  text-align: center;
-  margin-bottom: 25px;
-  color: #fff;
-}
-#bottom p {
-  text-align: center;
-  margin-bottom: 25px;
-  color: #fff;
-  opacity: 0.95;
-}
-.bottom-button {
-  display: block;
-  margin: auto;
-  background: #fff;
-  font-weight: 700;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  color: #000;
-  font-size: 1em;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  height: auto;
-}
 #page-header {
   height: 220px;
   background: url(/assets/roundrock.png);
@@ -622,7 +579,7 @@ h2 span {
     to right,
     rgba(0, 48, 107, 0.7),
     rgba(0, 122, 213, 0.927608543417367)
-);
+  );
   background: linear-gradient(
     90deg,
     rgba(0, 48, 107, 0.9) 0,
@@ -2353,111 +2310,7 @@ input[type="email"] {
   letter-spacing: 0.2em;
   font-weight: 400;
 }
-#prices {
-  margin-top: 50px;
-  height: 1666px !important;
-}
-.price-box {
-  border: 2px solid #e6f2ff;
-  border-radius: 6px;
-  padding: 70px 30px 30px 30px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  max-width: 400px;
-  margin: auto;
-  margin-bottom: 50px;
-  z-index: 500;
-}
-.price-box h2 {
-  position: absolute;
-  text-align: center;
-  background: #f1f8ff;
-  width: 100%;
-  top: 0;
-  height: 50px;
-  line-height: 50px;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #e6f2ff;
-}
-.price-box h3 {
-  position: relative;
-  color: var(--primary);
-  font-size: 4em;
-  font-weight: 400;
-  -webkit-transform: translateX(-10px);
-  -ms-transform: translateX(-10px);
-  transform: translateX(-10px);
-}
-.price-box h3:before {
-  content: "$";
-  position: absolute;
-  top: -10px;
-  left: -35px;
-  font-size: 1em;
-  -webkit-transform: scale(0.5);
-  -ms-transform: scale(0.5);
-  transform: scale(0.5);
-  height: auto;
-}
-.price-box h3:after {
-  content: "/MO";
-  position: absolute;
-  right: -86px;
-  bottom: -15px;
-  -webkit-transform: scale(0.3);
-  -ms-transform: scale(0.3);
-  transform: scale(0.3);
-}
-.price-box .not-mo:after {
-  display: none;
-}
-.price-box ul li {
-  list-style: none;
-  margin-bottom: 15px;
-}
-.price-box ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: relative;
-}
-.price-box ul li img {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  left: -30px;
-}
-.price-box p {
-  font-size: 13px !important;
-  text-align: center;
-  margin: auto;
-  margin-bottom: 20px;
-}
-.price-box p span {
-  color: var(--primary) !important;
-  font-weight: 700;
-}
-.price-box:nth-child(3) h3 {
-  -webkit-transform: translateX(0);
-  -ms-transform: translateX(0);
-  transform: translateX(0);
-}
-.price-box:nth-child(3) h3:after {
-  display: none;
-}
+
 @media screen and (min-width: 350px) and (max-width: 420px) {
   #landing {
     height: 650px;
@@ -2590,10 +2443,6 @@ input[type="email"] {
     width: 600px;
     margin: auto;
     margin-bottom: 80px;
-  }
-  #blog h2 {
-    width: 230px;
-    font-size: 2em;
   }
 }
 @media screen and (min-width: 1026px) {
@@ -2820,25 +2669,6 @@ input[type="email"] {
   .left-text-group h2 {
     margin-top: 90px;
   }
-  #pricing {
-    overflow: visible;
-  }
-  #pricing .container {
-    max-width: 1300px;
-    z-index: 100;
-  }
-  .price-box {
-    background: #fff;
-  }
-  .piggy-bank {
-    display: inline-block;
-    margin-right: 70px;
-    width: 500px;
-    height: 350px;
-    -webkit-transform: translateY(100px);
-    -ms-transform: translateY(100px);
-    transform: translateY(100px);
-  }
   .left {
     display: inline-block;
     width: 600px;
@@ -2898,88 +2728,8 @@ input[type="email"] {
     margin: auto;
     margin-bottom: 100px;
   }
-  #blog {
-    padding: 20px 0 70px;
-    position: relative;
-    z-index: 10000;
-  }
-  #blog h2 {
-    font-size: 40px;
-  }
-  #blog .boxes-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  #blog .box {
-    -webkit-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85);
-  }
-  #blog .box h3 {
-    height: 90px;
-  }
-  #prices {
-    height: 100px !important;
-  }
-  #prices .container {
-    z-index: 100;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  .price-box {
-    margin: 0;
-    width: 300px;
-    height: 500px;
-  }
-  .price-box:nth-child(2) {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    margin: 0 25px;
-    -webkit-box-shadow: 0 0 25px -10px #43b7ff;
-    box-shadow: 0 0 25px -10px #43b7ff;
-    background: #fff;
-    z-index: 1000;
-    height: auto;
-  }
-  .price-box:nth-child(2) h2 {
-    background: #a7ffa4;
-  }
   .navbar-menu {
     height: 124px !important;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #blog .container {
-    padding: 0;
-    max-width: 1200px;
-  }
-  #blog .box {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  #blog .box h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    height: auto;
   }
 }
 @media screen and (min-width: 1026px) and (max-width: 1260px) {
@@ -3006,9 +2756,6 @@ input[type="email"] {
   .flex-group {
     padding-top: 700px !important;
   }
-  #prices {
-    margin-bottom: -200px;
-  }
 }
 @media screen and (min-width: 3500px) {
   .swoop {
@@ -3018,9 +2765,6 @@ input[type="email"] {
 @media screen and (min-width: 3280px) {
   .flex-group {
     padding-top: 800px !important;
-  }
-  #prices {
-    margin-bottom: -370px;
   }
 }
 :root {
@@ -3498,12 +3242,6 @@ body.dark-mode .dark-swoop {
 body.dark-mode .light-swoop {
   display: none;
 }
-body.dark-mode #page-header {
-  background: url(/images/5728f1d0fbcb3d15a4cf71013800d9be6ec55a36/night.jpg);
-  background-size: auto;
-  background-position: 10% 62%;
-  background-repeat: no-repeat;
-}
 body.dark-mode #page-header:before {
   display: none;
 }
@@ -3517,27 +3255,10 @@ body.dark-mode .example {
   border-right: 1px solid var(--primary);
   border-top: 1px solid var(--primary);
   border-left: 1px solid var(--primary);
-}
-body.dark-mode #prices {
-  height: 1666px !important;
-}
-body.dark-mode .price-box {
-  background: var(--medium);
-  -webkit-box-shadow: 0 0 25px -5px #43b7ff;
-  box-shadow: 0 0 25px -5px #43b7ff;
-  border: transparent;
-  border: 1px solid var(--primary);
-}
-body.dark-mode .price-box h2 {
-  background: var(--dark);
-  color: #fff;
-  border-radius: 5px 5px 0 0;
-}
-body.dark-mode .price-box li {
-  color: #fff;
-}
-body.dark-mode .price-box span {
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 body.dark-mode footer {
   background: #000;
@@ -3681,11 +3402,6 @@ body.dark-mode .box {
   body.dark-mode #portfolio {
     height: auto !important;
   }
-  body.dark-mode #page-header {
-    background: url(/images/5728f1d0fbcb3d15a4cf71013800d9be6ec55a36/night.jpg);
-    background-attachment: fixed;
-    background-position: 46% 264%;
-  }
   .dark-mode-group {
     height: 430px;
     top: -310px;
@@ -3699,13 +3415,6 @@ body.dark-mode .box {
     max-width: 1100px;
     position: relative;
     margin: auto;
-  }
-  body.dark-mode #page-header {
-    background: url(/images/5728f1d0fbcb3d15a4cf71013800d9be6ec55a36/night.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 130%;
   }
   .mobile-dark {
     display: none !important;
@@ -3737,25 +3446,55 @@ body.dark-mode .box {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  body.dark-mode .circles:before {
-    border: 1px dashed rgba(67, 183, 255, 0.5);
-  }
   body.dark-mode #portfolio {
     height: auto !important;
   }
-  body.dark-mode #prices {
-    height: 100px !important;
-  }
 }
 
-#centerimg {
-  text-align: center;
-}
-
-#portfolio {
-  text-align: center;
-}
-
+#centerimg,
+#portfolio,
 #contact {
   text-align: center;
 }
+
+#james {
+  border-radius: 50%;
+  padding-bottom: 25px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=tel], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #43b7ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #00306b;
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
